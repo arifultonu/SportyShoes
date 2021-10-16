@@ -1,0 +1,15 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%; /* needed for container min-height */
+}
+
+div.container {
+	height: auto !important; /* real browsers */
+	min-height: 100%; /* real browsers */
+	vertical-align: top;
+	text-align: center;
+	padding-top: 50px;
+	height: auto !important; /* real browsers */
+	min-height: 90%; /* real browsers */
+}
